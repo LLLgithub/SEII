@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>教师预约系统</title>
+</head>
+<link href="css/css.css" type="text/css" rel="stylesheet">   
+<script language="javascript">
+</script>
+
+<body>
+<div id="main" align="center">
+<div id="left">
+</div> 
+<div id="right" align="right">
+<div id="top">
+<img src="img/u=3464649575,2566584887&fm=90&gp=0.jpg" />
+</div>
+<div id="middle">
+<form style="background-image:url(img/fnl0.jpg); height:380px; " action="login_h.php">
+<input type="text" style="margin-right:190px; margin-top:128px; width:132px;"/>
+<input type="text" style="margin-right:198px; margin-top:18px; width:132px;"/>
+</form>
+</div>
+<div id="bottom">
+</div>
+</div>
+<table style=" text-align:center; width:100%">
+<tr>
+<td>
+2013 LLL Inc. All Rights Reserved
+</td>
+</tr>
+</table>
+</div>
+
+</body>
+</html>

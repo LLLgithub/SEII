@@ -1,0 +1,17 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">   
+<?php
+include "conn/conn.php";
+$info=$_POST['info'];
+$name=$info['name'];
+$password=$info['pw'];
+$nick_name=$info['nick_name'];
+$query="insert into admin(username,password,nick_name,power)values('$name','$password','$nick_name',0)";
+if($result=mysql_query($query))
+{
+      echo "<script language=\"javascript\">alert('注册成功');window.location.href='index.html'；</script>";
+}
+else
+{
+    echo "<script language=\"javascript\">alert('注册失败');window.location.href='login.htm';</script>";
+}
+?>

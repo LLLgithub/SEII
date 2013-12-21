@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>教师预约系统</title>
+</head>
+<link href="css/css.css" type="text/css" rel="stylesheet">
+<script language="javascript">
+function register()
+{
+     window.location.href="login.htm";
+}
+function ceshi()
+{
+    if(document.getElementById("name").value=="")
+    {
+        alert("帐号不能为空");
+        return false;
+    }
+    else if(document.getElementById("password").value=="")
+    {
+        alert("")
+    }
+}
+</script>
+
+<body>
+<div id="main" align="center">
+<form action="login_h.php" method="post">
+<input type="submit" style="margin-left:-516px;margin-top:453px; width:120px; height:48px; position:absolute;background: transparent;border: none; " value="" onclick="return ceshi()" />
+<input id="name" name="info[login_name]" type="text" style=" margin-left:-380px;margin-top:345px;width:132px;position:absolute;"/>
+<input id="password" name="info[password]" type="password" style=" margin-left:-380px;margin-top:380px;width:132px;position:absolute;"/>
+<input type="button" style="width:120px; height:48px; position:absolute; margin-top:453px; margin-left:-355px; background: transparent; border:none;" onclick="register()" />
+<select name="info[kind]" style=" margin-left:-380px;margin-top:420px;width:132px;position:absolute;">
+        <option value="0">学生登录</option>
+        <option value="1">教师登录</option>
+</select>
+</form>
+</div>
+
+</body>
+</html>
